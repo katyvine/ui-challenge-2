@@ -1,0 +1,38 @@
+label, input{
+  display: block;
+  /* width: 100%; */
+}
+.dropdown{
+  display: inline-block;
+  border: 2px solid hotpink;
+}
+
+button.dropdown{
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 75px;
+  background-position: -700px -150px;
+}
+
+button.dropdown-list{
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 75px;
+  background-position: -700px -150px;
+}
+
+ul{
+  /* display: block; */
+  display: none;
+}
+
+button.checkbox{
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+  height: 140px;
+  width: 140px;
+  background-position: -90px -130px;
+  border: 2px solid hotpink;
+}
