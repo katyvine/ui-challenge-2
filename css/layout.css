@@ -13,7 +13,9 @@ button.dropdown{
   height: 75px;
   width: 75px;
   background-position: -700px -150px;
+  display: inline-block;
 }
+
 
 button.dropdown-list{
   background-image: url('../form-elements-sprite.png');
@@ -34,5 +36,14 @@ button.checkbox{
   height: 140px;
   width: 140px;
   background-position: -90px -130px;
+  border: 2px solid hotpink;
+}
+
+button.radio{
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+  height: 140px;
+  width: 140px;
+  background-position: -350px -130px;
   border: 2px solid hotpink;
 }
