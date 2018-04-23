@@ -1,18 +1,58 @@
 //jquery to change the attributes
 $(function()  {
-    $('button.dropdown').on('click', function(e){
+    $('button.dropdownA').on('click', function(e){
     e.preventDefault();
     $('ul').toggle();
-    $("button.dropdown").css("background-position", "-640px -160px");
+    $("button.dropdownA").hide();
+    $("button.dropdownB").show();
   });
 
-  $('button.checkbox').on('click', function(e){
+  $('button.dropdownB').on('click', function(e){
     e.preventDefault();
-  $('button.checkbox').css("background-position", "-220px -130px");
+    $('ul').toggle();
+    $("button.dropdownA").show();
+    $("button.dropdownB").hide();
   });
 
-  $('button.radio').on('click', function(e){
+
+
+  $('button.checkboxA').on('click', function(e){
     e.preventDefault();
-  $('button.radio').css("background-position", "-500px -130px");
+  $('button.checkboxB').show();
+  $('button.checkboxA').hide();
   });
-});
+
+  $('button.checkboxB').on('click', function(e){
+    e.preventDefault();
+  $('button.checkboxA').show();
+  $('button.checkboxB').hide();
+  });
+
+
+
+  $('button.radioA').on('click', function(e){
+    e.preventDefault();
+  $('button.radioB').show();
+  $('button.radioA').hide();
+  });
+
+  $('button.radioB').on('click', function(e){
+    e.preventDefault();
+    $('button.radioA').show();
+    $('button.radioB').hide();
+  });
+
+
+
+  $('button.submitA').on('click', function(e){
+    e.preventDefault();
+  $('button.submitB').show();
+  $('button.submitA').hide();
+  });
+
+  $('button.submitB').on('click', function(e){
+    e.preventDefault();
+    $('button.submitA').show();
+    $('button.submitB').hide();
+  });
+});A

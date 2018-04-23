@@ -1,21 +1,28 @@
 label, input{
   display: block;
-  /* width: 100%; */
 }
 .dropdown{
   display: inline-block;
-  border: 2px solid hotpink;
 }
 
-button.dropdown{
+button.dropdownA{
   background-image: url('../form-elements-sprite.png');
   background-repeat: no-repeat;
-  height: 75px;
-  width: 75px;
+  height: 70px;
+  width: 60px;
   background-position: -700px -150px;
   display: inline-block;
+  border: none;
 }
-
+button.dropdownB{
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 60px;
+  background-position: -640px -160px;
+  display: none;
+  border: none;
+}
 
 button.dropdown-list{
   background-image: url('../form-elements-sprite.png');
@@ -23,27 +30,59 @@ button.dropdown-list{
   height: 75px;
   width: 75px;
   background-position: -700px -150px;
-}
+ }
 
 ul{
-  /* display: block; */
   display: none;
 }
 
-button.checkbox{
+button.checkboxA{
   background-image: url('../form-elements-sprite.png');
   background-repeat: no-repeat;
-  height: 140px;
-  width: 140px;
+  height: 130px;
+  width: 130px;
   background-position: -90px -130px;
-  border: 2px solid hotpink;
+  border: none;
+  display: inline-block;
 }
 
-button.radio{
+button.checkboxB{
   background-image: url('../form-elements-sprite.png');
   background-repeat: no-repeat;
-  height: 140px;
-  width: 140px;
+  height: 130px;
+  width: 130px;
+  background-position: -229px -130px;
+  border: none;
+  display:none;
+}
+
+button.radioA{
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 130px;
   background-position: -350px -130px;
-  border: 2px solid hotpink;
+  border: none;
+  display: inline-block
+}
+button.radioB{
+  background-image: url('../form-elements-sprite.png');
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 130px;
+  background-position: -494px -130px;
+  border: none;
+  display:none;
+}
+
+button.submitA{
+  height: 75px;
+  width: 130px;
+  background: #c0c0c0;
+}
+button.submitB{
+  height: 75px;
+  width: 130px;
+  background: #696969;
+  display: none;
 }
